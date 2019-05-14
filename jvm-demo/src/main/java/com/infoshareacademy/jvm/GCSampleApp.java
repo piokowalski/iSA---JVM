@@ -16,7 +16,16 @@ public class GCSampleApp {
         List<Object> list = new ArrayList<>();
 
         // Keep adding new elements to the 'list'
-        // Clear the list every 10 000 iterations
+        // Clear the list every 10 000 iteration
         // Monitor the memory in jvisualvm
+
+        while (true) {
+            list.add(new DemoObject("No " + list.size()));
+
+            if (list.size() >= 10000) {
+                list.clear();
+            }
     }
 }
+}
+
