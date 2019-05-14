@@ -18,5 +18,6 @@ public class OutOfMemorySampleApp {
         // Keep adding new elements to the 'list'
         // Print list size every 10 000 iterations
         // Monitor the memory in jvisualvm
+
     }
 }

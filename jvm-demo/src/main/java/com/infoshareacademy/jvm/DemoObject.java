@@ -8,6 +8,7 @@ public class DemoObject {
         this.name = name;
     }
 
+
     @Override
     protected void finalize() throws Throwable {
         System.out.println("Garbage Collected - " + name);

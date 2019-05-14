@@ -10,6 +10,7 @@ class GCSample1 {
         System.gc();
     }
 
+
     public static void run(int count) {
         // no references to any of the objects outside this method
         List<DemoObject> list = new ArrayList<>(count);
